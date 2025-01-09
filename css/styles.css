@@ -47,8 +47,8 @@ ul, ol {
     color: #434455;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus,
+.header-menu-link:hover,
+.header-menu-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
     color: #404bbf;
@@ -67,10 +67,6 @@ ul, ol {
 }
 
 .main-button {
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     cursor: pointer;
     font-family: inherit;
@@ -81,7 +77,8 @@ ul, ol {
     color: #fff;
 }
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
     background-color: #404bbf;
 }
 
@@ -117,6 +114,7 @@ ul, ol {
 }
 
 .team-name {
+    text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -133,7 +131,8 @@ ul, ol {
     color: #434455;
 }
 
-.portfolio-title{
+.portfolio-title {
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
